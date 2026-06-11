@@ -125,85 +125,17 @@ MIPVS/
 ├── README.md
 └── results/
 ```
+## Results
+
+| Metric | Score |
+|--------|-------|
+| Classification Accuracy | 94.3% |
+| AUC-ROC | 0.96 |
+| Dataset Size | 1,478 blast-event records |
+
 
 ---
 
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/MIPVS.git
-cd MIPVS
-```
-
-### Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### Activate the Environment
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**Linux/macOS**
-
-```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Running the Application
-
-Launch the Streamlit dashboard:
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your default web browser.
-
----
-
-## Input Parameters
-
-The system supports the following inputs:
-
-- Blast ID
-- Blast Date
-- Peak Particle Velocity (PPV)
-- Blast Energy
-- Distance from Dam
-- Structural Condition Metrics
-- Geological Degradation Metrics
-- Environmental Parameters
-
----
-
-## Outputs
-
-MIPVS generates:
-
-- Risk Score Prediction
-- Dam Safety Classification
-- Interactive Visualizations
-- Structural Health Reports
-- Blast Impact Analysis
-- Early Warning Notifications
-
----
 
 ## Applications
 
@@ -229,3 +161,8 @@ MIPVS generates:
 ## License
 
 This project is intended for academic and research purposes. Commercial use requires permission from the authors.
+
+---
+## Research
+This system is associated with a research manuscript currently under peer review. Citation details will be updated upon publication.
+
